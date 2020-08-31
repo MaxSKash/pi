@@ -1,0 +1,2 @@
+#!/bin/bash
+xauth add $(xauth -f ~max/.Xauthority list|tail -1)
